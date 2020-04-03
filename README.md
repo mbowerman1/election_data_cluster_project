@@ -19,7 +19,7 @@ After performing cluster analysis, I noticed that each cluster had a node with a
 
 ## Findings
 ![](Visualizations/Cluster_Distribution.PNG)
-![](Visualizations/Cluster_Characteristics.PNG)
+![](Visualizations/Cluster_Characteristics3.PNG)
 
 As the tables show, a slight majority of precincts stayed in the same cluster, demonstrating either consistently above average, average, or below average voter turnout. Most of the remaining precincts fluctuated between two clusters with only three precincts fluctuating between all three clusters. Interestingly, the precincts of the two-cluster group never jumped between clusters 1 and 3, only ever fluctuating between 1 and 2 or 2 and 3, as seen in the "Visualizations and Final Clusters" dataset. In other words, only three precincts had both above average and below average voter turnout across the four elections surveyed; all other precincts either stayed in their lane (i.e. cluster) or fluctuated between above average and average, or below average and average.
 
