@@ -1,4 +1,4 @@
-# Comparing Baltimore City Voter Turnout by Precinct in 2016 and 2018
+# Comparing Baltimore City Voter Turnout by Precinct in 2016 and 2018 Elections
 
 ## Business Question
 What was voter turnout generally like in Baltimore City in 2016 and 2018? How could it be improved in 2020 and beyond?
