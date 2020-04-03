@@ -18,12 +18,12 @@ I pulled the Baltimore City precincts data using the filter function. The number
 After performing cluster analysis, I noticed that each cluster had a node with all attributes above the mean, a node with some attributes above and some below the mean, and a node with all attributes below the mean. I teaked the numbers such that the nodes described were #1, #2, and #3 respectively for each dataset, without changing the cluster distribution or minimized sum of the squared distances. This made the cluster characteristics nearly identical across the board, so I could analyze the significance of a precinct changing clusters from election to election. The characteristics of each node and cluster distribution are outlined in the tables below.
 
 ## Findings
-![](Visualizations)
-![](Visualizations)
+![](Visualizations/Cluster_Distribution.PNG)
+![](Visualizations/Cluster_Characteristics.PNG)
 
 As the tables show, a slight majority of precincts stayed in the same cluster, demonstrating either consistently above average, average, or below average voter turnout. Most of the remaining precincts fluctuated between two clusters with only three precincts fluctuating between all three clusters. Interestingly, the precincts of the two-cluster group never jumped between clusters 1 and 3, only ever fluctuating between 1 and 2 or 2 and 3, as seen in the "Visualizations and Final Clusters" dataset. In other words, only three precincts had both above average and below average voter turnout across the four elections surveyed; all other precincts either stayed in their lane (i.e. cluster) or fluctuated between above average and average, or below average and average.
 
-![](Visualizations)
+![](Visualizations/Average_Turnout.PNG)
 
 Additionally, the above data for Baltimore City average voter turnout was also retrieved. While it was no surprise that voter turnout is greater in general elections compared to primaries, I was very surprised to find how much voter turnout dropped from 2016 to 2018. In light of the civic and social context of the 2018 election, I had expected to see the opposite trend. In fact, Baltimore's voter turnout in the 2018 general election was markedly lower than the national average of 53.4%. Conversely in 2016, Baltimore was much closer to the national average of 61.4%. National turnout averages were retrieved from the United States Census Bureau and Pew Research Center websites: [2016 Primary](https://www.pewresearch.org/fact-tank/2016/06/10/turnout-was-high-in-the-2016-primary-season-but-just-short-of-2008-record/ft_16-06-08_primaryturnout/), [2016 General](https://www.census.gov/newsroom/blogs/random-samplings/2017/05/voting_in_america.html), [2018 Primary](https://www.pewresearch.org/fact-tank/2018/10/03/turnout-in-this-years-u-s-house-primaries-rose-sharply-especially-on-the-democratic-side/), and [2018 General](https://www.census.gov/library/stories/2019/04/behind-2018-united-states-midterm-election-turnout.html).
 
